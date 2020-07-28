@@ -11,42 +11,51 @@ namespace IQB.RabbitRx.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Receiver starting.");
-            var factory = new ConnectionFactory() { HostName = "localhost" };
-            string queueName = "userQueue";
-            var rabbitMqConnection = factory.CreateConnection();
-            var rabbitMqChannel = rabbitMqConnection.CreateModel();
-
-            rabbitMqChannel.QueueDeclare(queue: queueName,
-                durable: false,
-                exclusive: false,
-                autoDelete: false,
-                arguments: null);
-
-            rabbitMqChannel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
-
-            int messageCount = Convert.ToInt16(rabbitMqChannel.MessageCount(queueName));
-            Console.WriteLine(" Listening to the queue. This channels has {0} messages on the queue", messageCount);
-
-            var consumer = new EventingBasicConsumer(rabbitMqChannel);
-            consumer.Received += (model, ea) =>
+            try
             {
-                var body = ea.Body.ToArray();
-                var message = Encoding.UTF8.GetString(body);
-                Console.WriteLine(Regex.IsMatch(message, @"^[a-zA-Z]+$")
-                    ? $@"Hello {message}, I am your father!”"
-                    : "Unparseable input received.");
+                Console.WriteLine("Receiver starting.");
+                var factory = new ConnectionFactory() { HostName = "localhost" };
+                string queueName = "userQueue";
+                var rabbitMqConnection = factory.CreateConnection();
+                var rabbitMqChannel = rabbitMqConnection.CreateModel();
 
-                rabbitMqChannel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
-                Thread.Sleep(1000);
-            };
-            rabbitMqChannel.BasicConsume(queue: queueName,
-                autoAck: true ,
-                consumer: consumer);
+                rabbitMqChannel.QueueDeclare(queue: queueName,
+                    durable: false,
+                    exclusive: false,
+                    autoDelete: false,
+                    arguments: null);
 
-            Thread.Sleep(1000 * messageCount);
-            Console.WriteLine(" Connection closed, no more messages.");
-            Console.ReadLine();
+                rabbitMqChannel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
+
+                int messageCount = Convert.ToInt16(rabbitMqChannel.MessageCount(queueName));
+                Console.WriteLine(" Listening to the queue. This channels has {0} messages on the queue", messageCount);
+
+                var consumer = new EventingBasicConsumer(rabbitMqChannel);
+                consumer.Received += (model, ea) =>
+                {
+                    var body = ea.Body.ToArray();
+                    var message = Encoding.UTF8.GetString(body);
+                    Console.WriteLine(Regex.IsMatch(message, @"^[a-zA-Z]+$")
+                        ? $@"Hello {message}, I am your father!”"
+                        : "Unparseable input received.");
+
+                    rabbitMqChannel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
+                    Thread.Sleep(1000);
+                };
+                rabbitMqChannel.BasicConsume(queue: queueName,
+                    autoAck: true,
+                    consumer: consumer);
+
+                Thread.Sleep(1000 * messageCount);
+                Console.WriteLine(" Connection closed, no more messages.");
+                Console.ReadLine();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($@"An exception has occurred + {ex.Message}");
+                Console.ReadLine();
+            }
+            
         }
     }
 }
