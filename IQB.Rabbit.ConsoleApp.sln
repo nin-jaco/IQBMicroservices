@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IQB.RabbitRx.ConsoleApp", "IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp.csproj", "{BF974363-0A41-4ADE-BEDF-984C035D369C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IQB.RabbitTx.ConsoleApp", "IQB.RabbitTx.ConsoleApp\IQB.RabbitTx.ConsoleApp.csproj", "{4C0EEAAE-1695-4A66-A2CA-F2D77228ABCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF974363-0A41-4ADE-BEDF-984C035D369C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF974363-0A41-4ADE-BEDF-984C035D369C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF974363-0A41-4ADE-BEDF-984C035D369C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF974363-0A41-4ADE-BEDF-984C035D369C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0EEAAE-1695-4A66-A2CA-F2D77228ABCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0EEAAE-1695-4A66-A2CA-F2D77228ABCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0EEAAE-1695-4A66-A2CA-F2D77228ABCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0EEAAE-1695-4A66-A2CA-F2D77228ABCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {196910CD-11D1-45B2-8362-2472E99ED3A1}
+	EndGlobalSection
+EndGlobal

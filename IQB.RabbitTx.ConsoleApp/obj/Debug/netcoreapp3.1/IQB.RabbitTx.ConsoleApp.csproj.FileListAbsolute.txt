@@ -1,0 +1,15 @@
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\bin\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.exe
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.csprojAssemblyReference.cache
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.AssemblyInfoInputs.cache
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.AssemblyInfo.cs
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\bin\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.deps.json
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\bin\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.runtimeconfig.json
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\bin\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.runtimeconfig.dev.json
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\bin\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.dll
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\bin\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.pdb
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.csproj.CopyComplete
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.dll
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.pdb
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitTx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitTx.ConsoleApp.genruntimeconfig.cache

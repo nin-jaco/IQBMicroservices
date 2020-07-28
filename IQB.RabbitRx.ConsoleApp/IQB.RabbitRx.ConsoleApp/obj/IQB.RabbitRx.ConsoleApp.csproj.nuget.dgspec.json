@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Source\\IQBMicroservices\\IQBMicroservices\\IQB.RabbitRx.ConsoleApp\\IQB.RabbitRx.ConsoleApp\\IQB.RabbitRx.ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Source\\IQBMicroservices\\IQBMicroservices\\IQB.RabbitRx.ConsoleApp\\IQB.RabbitRx.ConsoleApp\\IQB.RabbitRx.ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\IQBMicroservices\\IQBMicroservices\\IQB.RabbitRx.ConsoleApp\\IQB.RabbitRx.ConsoleApp\\IQB.RabbitRx.ConsoleApp.csproj",
+        "projectName": "IQB.RabbitRx.ConsoleApp",
+        "projectPath": "C:\\Source\\IQBMicroservices\\IQBMicroservices\\IQB.RabbitRx.ConsoleApp\\IQB.RabbitRx.ConsoleApp\\IQB.RabbitRx.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\IQBMicroservices\\IQBMicroservices\\IQB.RabbitRx.ConsoleApp\\IQB.RabbitRx.ConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+﻿&lt;?xml version="1.0" encoding="utf-8" ?&gt; 
+&lt;project name="IQB.RabbitTx.ConsoleApp"&gt;
+
+  &lt;target name="build"&gt;
+  &lt;solution configuration="debug" 
+  solutionfile="IQB.Rabbit.ConsoleApp" /&gt;
+  &lt;/target&gt;
+
+&lt;/project&gt;

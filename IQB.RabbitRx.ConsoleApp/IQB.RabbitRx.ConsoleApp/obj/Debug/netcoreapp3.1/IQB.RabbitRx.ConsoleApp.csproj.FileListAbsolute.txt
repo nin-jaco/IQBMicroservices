@@ -1,0 +1,15 @@
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\bin\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.exe
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.csprojAssemblyReference.cache
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.AssemblyInfoInputs.cache
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.AssemblyInfo.cs
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\bin\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.deps.json
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\bin\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.runtimeconfig.json
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\bin\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.runtimeconfig.dev.json
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\bin\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.dll
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\bin\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.pdb
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.csproj.CopyComplete
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.dll
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.pdb
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.RabbitRx.ConsoleApp\IQB.RabbitRx.ConsoleApp\obj\Debug\netcoreapp3.1\IQB.RabbitRx.ConsoleApp.genruntimeconfig.cache
