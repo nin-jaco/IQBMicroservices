@@ -1,0 +1,5 @@
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.Rabbit.Factory\bin\Debug\netcoreapp3.1\IQB.Rabbit.Factory.deps.json
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.Rabbit.Factory\bin\Debug\netcoreapp3.1\IQB.Rabbit.Factory.dll
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.Rabbit.Factory\obj\Debug\netcoreapp3.1\IQB.Rabbit.Factory.csprojAssemblyReference.cache
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.Rabbit.Factory\obj\Debug\netcoreapp3.1\IQB.Rabbit.Factory.AssemblyInfoInputs.cache
+C:\Source\IQBMicroservices\IQBMicroservices\IQB.Rabbit.Factory\obj\Debug\netcoreapp3.1\IQB.Rabbit.Factory.AssemblyInfo.cs

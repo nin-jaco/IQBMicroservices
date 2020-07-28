@@ -26,8 +26,6 @@ namespace IQB.RabbitTx.ConsoleApp
                     autoDelete: false,
                     arguments: null);
 
-
-
                 var body = Encoding.UTF8.GetBytes(text);
 
                 channel.BasicPublish(exchange: "",
